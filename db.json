@@ -1,0 +1,12 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Cheeseburger",
+      "description": "Tasty burger with cheese",
+      "price": 50,
+      "currency": "EGP",
+      "imageUrl": "https://example.com/burger.jpg"
+    }
+  ]
+}

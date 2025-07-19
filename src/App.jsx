@@ -11,9 +11,10 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer.jsx'; 
 
+
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/Burger-Restaurant">
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
@@ -31,7 +32,7 @@ function App() {
 
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
